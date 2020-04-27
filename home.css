@@ -8,15 +8,19 @@ form, input, div {
   color: black;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
 
-  width: 900px;
-  margin: 0 auto;
+  width: 100%px;
+
 }
 
 p {
   font-family: "open sans";
-  font-size: 11px;
+  font-size: 20px;
   color: black;
 }
 
@@ -26,23 +30,23 @@ height: 400px;
 
 }
 
-.tabel {
-  padding: 50px 0;
+.artikel {
+  padding: 0 50px;
 }
 
-.mainText{
-	width: 100%;
-	text-align: justify;
-  	text-justify: inter-word;
-  	padding: 0 50px;
+.colom {
+  display:flex;
+  text-align: justify;
 }
 
 .kolom {
-  height: 150px;
+  padding: 50px;
+  width:auto;
 }
 
-.isi {
-  height: 100px;
+.kolom2 {
+  padding: 25px 50px 50px 50px;
+  text-align: center;
 }
 
 .judul {
@@ -50,7 +54,7 @@ height: 400px;
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -59,7 +63,7 @@ height: 400px;
   padding-bottom: 80px;
   background-color: #ecf0f1;
   text-align: center;
-  height: 400px;
+
 }
 
 .heading {
@@ -75,21 +79,14 @@ height: 400px;
 }
 
 .kolom-profil {
-  margin: 0 35px;
+  display:flex;
+  margin: 0 auto;
   text-align: center;
-}
-
-.profill {
-  display :flex;
-  width: 20%
 
 }
 
 .profil-icon {
-  position: relative;
-  height: 100px;
-  width: 160px;
-
+  width: 20%;
 }
 
 .profil-icon p {
