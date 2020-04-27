@@ -1,0 +1,151 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+  font-family: "Proza Libre";
+  color: white;
+}
+
+body {
+
+  width: 900px;
+
+  margin: 0 auto;
+  display:flex;
+}
+
+p {
+  font-family: "open sans";
+  font-size: 11px;
+  color: #f5f6fa;
+}
+
+.kiri {
+  width: 30%;
+  background-image: url(icons.png);
+  background-size: 210px 190px;
+  background-repeat: no-repeat;
+  background-color: #7f8fa6;
+  padding: 50px 25px 10px 50px;
+  text-align: right;
+}
+
+.pres {
+  text-align: right;
+  line-height: 20px;
+  display: flex;
+}
+
+.Rincian {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.star {
+  flex: auto;
+}
+
+.tengah {
+
+  width: 30%;
+  background-color: #2f3640;
+  text-align: center;
+
+}
+
+.ikon-home {
+  display:flex;
+  padding-top: 15px;
+}
+
+.link {
+  flex: auto;
+}
+
+.foto {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.deskripsi {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+}
+
+.deskripsi h1 {
+  line-height: 35px;
+}
+
+.deskripsi h4 {
+  color: #7f8fa6;
+  padding-top: 5px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.deskripsi p {
+  padding-top: 20px;
+}
+
+.alamat {
+  border-top: 2px dotted #f5f6fa;
+  border-bottom: 2px dotted #f5f6fa;
+  margin: 0 30px;
+  padding: 25px 0;
+}
+
+.alamat h5 {
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #7f8fa6;
+}
+
+.medsos {
+  padding: 25px 15px;
+  display: flex;
+
+}
+
+.sub {
+  padding: 10px;
+  flex: auto;
+
+}
+
+.kanan {
+  width: 40%;
+  background-image: url(icons2.png);
+  background-size: 200px 210px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-color: #7f8fa6;
+  padding: 50px 50px 10px 25px;
+  text-align: left;
+}
+
+.left {
+  padding-top: 50px;
+}
+
+.experiences {
+  padding-top: 50px;
+}
+
+.experiences h5{
+  color: #2f3640;
+}
+
+.company {
+  color: #2f3640;
+}
+
+.expr {
+  padding-bottom: 25px;
+  border-bottom: 2px dotted #f5f6fa;
+}
