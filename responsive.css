@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .profil-icon {
+    width: 50%;
+  }
+}
+
+@media (max-width: 670px) {
+  .colom {
+    display: block;
+  }
+  .kolom-profil {
+    display: block;
+  }
+  .profil-icon {
+    width: 100%;
+  }
+}
