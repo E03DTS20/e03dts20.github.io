@@ -3,6 +3,11 @@
 }
 
 @media (max-width: 1000px) {
+  .colom {
+    display: block;
+    text-align: center;
+  }
+
   .profil-icon {
     width: 50%;
   }
